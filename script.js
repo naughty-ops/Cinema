@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(movies => {
       const moviesGrid = document.getElementById('movies-grid');
       
-      movies.forEach(movie => {
+      movies.reverse ().forEach(movie => {
         const cardHTML = `
           <div class="card-container">
             <div class="card">
