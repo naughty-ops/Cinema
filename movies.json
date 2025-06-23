@@ -149,38 +149,9 @@
   "frontImage": "https://m.media-amazon.com/images/M/MV5BYTQ1NDRlOTgtZTFlMS00YWQyLWJiOTYtNzE4ZmVkYTU5OWJkXkEyXkFqcGc@._V1_.jpg",
   "backImage": "https://m.media-amazon.com/images/M/MV5BYTQ1NDRlOTgtZTFlMS00YWQyLWJiOTYtNzE4ZmVkYTU5OWJkXkEyXkFqcGc@._V1_.jpg",
   "description": "A team of six policemen is on a chase to solve a murder in a suburban lodge room, with just one clue - a fake address, from the park register.",
-  "isSeries": true,
-  "season": 2,
-  "episodes": [
-    {
-      "title": "Full",
+  
       "watchLink": "https://stream.anshbotzone.com/tg/play?url=krmoH7SfoZomHC0gviy/TEPB//eX8xhToU0m3q19yO7VznuPsNDJZYT%2BTAVDegIirICVlNpeYMu%2Bw9yl1c%2B2H5PyFPqHpZXbLrj%2B2Rlb4cICdfjr6fyTfW4QgQVxcjZ/&meta=%2BMpl6Ht3blkTae/hEpxtrldUJ4BM6vZnLOOXBofD8MZ0D3CR4r7Upe7ID9uXiTt3KIFXNHiJKL56P4dgZd2zroq3UOIJngKTKb8xXph1KYZhfDYb6mIFXbmV4rg1XDuBHRLM4RMCqh/f9M7U9NDxcH7k/TZdROLH/FRIcpILxqbcKL8rUz2PnAe%2BLbT8zwCyk0ltusATtCLyjIr%2BfXDrRT3qsH/8mGSHBpjTt6utCKQ%3D"
-    },
-    {
-      "title": "Episode 1",
-      "watchLink": ""
-    },
-    {
-      "title": "Episode 2",
-      "watchLink": ""
-    },
-    {
-      "title": "Episode 3",
-      "watchLink": ""
-    },
-    {
-      "title": "Episode 4",
-      "watchLink": ""
-    },
-    {
-      "title": "Episode 5",
-      "watchLink": ""
-    },
-    {
-      "title": "Episode 6",
-      "watchLink": ""
-    }
-  ]
   }
+    
 
 ]
