@@ -3,24 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Movie Flip Cards Grid</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Yസിനിമ Premium</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Noto+Sans+Malayalam:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="dark-theme">
   <nav>
-  <div class="logo">Yസിനിമ</div>
-  <div class="toolbar">
-    <input type="text" id="search-input" placeholder="Search movies or series..." />
-    <button id="theme-toggle">🌓</button>
-  </div>
-</nav>
+    <div class="logo">Yസിനിമ</div>
+    <div class="toolbar">
+      <div class="search-container">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="search-input" placeholder="Search movies or series..." />
+        <button class="clear-search"><i class="fas fa-times"></i></button>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
   
   <div class="movies-container">
     <h2 class="section-title">Latest Releases</h2>
     <div class="movies-grid" id="movies-grid">
       <!-- Movie cards will be dynamically inserted here -->
+      <div class="skeleton-loader"></div>
+      <div class="skeleton-loader"></div>
+      <div class="skeleton-loader"></div>
+      <div class="skeleton-loader"></div>
+      <div class="skeleton-loader"></div>
+      <div class="skeleton-loader"></div>
+    </div>
+  </div>
+
+  <!-- Movie Details Modal -->
+  <div class="modal" id="movie-modal">
+    <div class="modal-content">
+      <button class="close-modal">&times;</button>
+      <div class="modal-body">
+        <div class="modal-poster"></div>
+        <div class="modal-info">
+          <h2 class="modal-title"></h2>
+          <p class="modal-description"></p>
+          <a href="#" class="watch-btn pulse" target="_blank">▶ Watch Now</a>
+        </div>
+      </div>
     </div>
   </div>
 
