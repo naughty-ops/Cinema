@@ -152,6 +152,32 @@
   
       "watchLink": "https://stream.anshbotzone.com/tg/play?url=krmoH7SfoZomHC0gviy/TEPB//eX8xhToU0m3q19yO7VznuPsNDJZYT%2BTAVDegIirICVlNpeYMu%2Bw9yl1c%2B2H5PyFPqHpZXbLrj%2B2Rlb4cICdfjr6fyTfW4QgQVxcjZ/&meta=%2BMpl6Ht3blkTae/hEpxtrldUJ4BM6vZnLOOXBofD8MZ0D3CR4r7Upe7ID9uXiTt3KIFXNHiJKL56P4dgZd2zroq3UOIJngKTKb8xXph1KYZhfDYb6mIFXbmV4rg1XDuBHRLM4RMCqh/f9M7U9NDxcH7k/TZdROLH/FRIcpILxqbcKL8rUz2PnAe%2BLbT8zwCyk0ltusATtCLyjIr%2BfXDrRT3qsH/8mGSHBpjTt6utCKQ%3D"
   }
-    
+   ,
+  {
+  "type": "movie",
+  "title": "Sthanarthi Sreekuttan",
+  "alsoKnownAs": "Candidate Sreekuttan",
+  "frontImage": "https://m.media-amazon.com/images/M/MV5BZjY5YzE3YjYtYjU5MC00Y2M3LWIyYzctODIwMDU0ODNhOTA4XkEyXkFqcGdeQXVyMTY4MzUyNDYz._V1_.jpg",
+  "backImage": "https://m.media-amazon.com/images/M/MV5BZGVjYjM4YTItYjU5Ny00M2RkLWIyYzctODIwMDU0ODNhOTA4XkEyXkFqcGdeQXVyMTY4MzUyNDYz._V1_.jpg",
+  "description": "Story of four mischievous students in K.R Narayanan U.P school, revolving around the conflict between Sreekuttan and Ambadi, a bright student in the class.",
+  "streamUrl": "https://example.com/stream/sthanarthi-sreekuttan",
+  "year": 2024,
+  "duration": "2h 15m",
+  "genre": ["Comedy"],
+  "rating": 7.0,
+  "ratingCount": 1550,
+  "releaseDate": "2024-11-29",
+  "country": "India",
+  "director": "Vinesh Viswanath",
+  "writers": ["Kailash S", "Bhavan Murali Krishnan", "Anand Manmadhan"],
+  "cast": [
+    "Aju Varghese",
+    "Johny Antony",
+    "Saiju Kurup",
+    "Kannan Nayar",
+    "Sreerang Shine",
+    "Anand Manmadhan"
+  ]
+  }
 
 ]
