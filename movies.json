@@ -1483,7 +1483,7 @@
   "duration": "2h 35m",
   "watchLink": "https://stream.anshbotzone.com/tg/play?url=zXRtMUbg5KwbAAPLTlhRH/Sz2Ms1FpYszfdlYXqNubKVPT0pq0CQ3sTv5cWpfiBtSWktQdCpD1jepBm86qI57S8UGp/8Bb/6jtR3%2BR1TN7M%2B5l8CIfcyFViWq9ks4/u4&meta=JAjJsLt0yChh5wimZNpU7aH7%2B1%2BQEqCQuo8XZCWVeOfulDmS3AXpsERZXZaySUTzdeg5BLfp9ujMguEoomfiRPa0aZipM6TgZkcUYhLGYkle9AYMsLuCdcVv0m6POO/z5NtrPmPJkx72ec3ol7KNTtW6/E8fXt0u2gsIMcOzHbaioVypSDMsv0GZV2wa9K5kMLVrNrNZM68xjyWT3jSUDw%3D%3D",
   "top10": true,
-  "isNewRelease": false,
+  "isNewRelease": true,
   "isPopular": true,
   "director": "Jithu Madhavan",
   "writers": [
@@ -1510,4 +1510,5 @@
   ]
 
 }
+
 
