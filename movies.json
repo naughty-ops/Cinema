@@ -1468,6 +1468,45 @@
       "country": "India",
       "releaseDate": "19 September 2025",
       "featured": true
-    }
+    },
+    {
+  "id": 202401,
+  "title": "Aavesham",
+  "alsoKnownAs": "Aavesham",
+  "year": 2024,
+  "rating": 7.8,
+  "category": "Action, Comedy",
+  "description": "Three engineering freshmen in Bangalore clash with their seniors and seek help from a local gangster named Ranga, sparking a wild chain of hilarious and action-packed events.",
+  "frontImage": "https://m.media-amazon.com/images/M/MV5BNzM3OTcyNDQtNjAwNi00YTg4LWIyNTEtNjMzY2E2MWY2MGU1XkEyXkFqcGc@._V1_.jpg",
+  "backImage": "https://img.youtube.com/vi/L0yEMl8PXnw/maxresdefault.jpg",
+  "certification": "U/A",
+  "duration": "2h 35m",
+  "watchLink": "https://stream.anshbotzone.com/tg/play?url=zXRtMUbg5KwbAAPLTlhRH/Sz2Ms1FpYszfdlYXqNubKVPT0pq0CQ3sTv5cWpfiBtSWktQdCpD1jepBm86qI57S8UGp/8Bb/6jtR3%2BR1TN7M%2B5l8CIfcyFViWq9ks4/u4&meta=JAjJsLt0yChh5wimZNpU7aH7%2B1%2BQEqCQuo8XZCWVeOfulDmS3AXpsERZXZaySUTzdeg5BLfp9ujMguEoomfiRPa0aZipM6TgZkcUYhLGYkle9AYMsLuCdcVv0m6POO/z5NtrPmPJkx72ec3ol7KNTtW6/E8fXt0u2gsIMcOzHbaioVypSDMsv0GZV2wa9K5kMLVrNrNZM68xjyWT3jSUDw%3D%3D",
+  "top10": true,
+  "isNewRelease": false,
+  "isPopular": true,
+  "director": "Jithu Madhavan",
+  "writers": [
+    "Jithu Madhavan"
+  ],
+  "cast": [
+    "Fahadh Faasil",
+    "Hipzster",
+    "Mithun Jai Shankar",
+    "Roshan Shanavas",
+    "Sajin Gopu",
+    "Midhutty",
+    "Mansoor Ali Khan"
+  ],
+  "awards": [
+    "Nominee – Best Actor (2024)",
+    "Winner – Best Action Comedy (2024)"
+  ],
+  "language": "Malayalam",
+  "country": "India",
+  "releaseDate": "11 April 2024",
+  "featured": true
+}
   ]
+
 }
