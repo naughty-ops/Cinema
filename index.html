@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yCINEMA - Advanced Movie Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&family=Noto+Sans+Malayalam:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="navbar">
+        <div class="logo">
+            <i class="fas fa-play-circle"></i>yCINEMA
+        </div>
+
+        <!-- Header Search Bar -->
+        <div class="header-search-container">
+            <div class="header-search-bar">
+                <input type="text" id="header-search-input" class="header-search-input"
+                    placeholder="Search movies, TV shows, actors...">
+                <div class="header-search-actions">
+                    <button class="header-voice-search" id="header-voice-search" title="Voice Search">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button class="header-search-btn" id="header-search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="search-results" id="search-results">
+                <!-- Search results will be dynamically populated here -->
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Movies</a>
+                <a href="#" class="nav-link">TV Shows</a>
+                <a href="#" class="nav-link">My List</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Sliding Effect -->
+    <div class="hero-container" id="hero-container">
+        <div class="hero">
+            <!-- Hero slides will be dynamically added here -->
+        </div>
+        <div class="hero-indicators" id="hero-indicators">
+            <!-- Indicators will be dynamically added here -->
+        </div>
+    </div>
+
+    <!-- Category Navigation -->
+    <div class="category-nav" id="category-nav">
+        <div class="category-item active" data-category="all"><i class="fas fa-fire"></i> Trending</div>
+        <div class="category-item" data-category="action"><i class="fas fa-fist-raised"></i> Action</div>
+        <div class="category-item" data-category="drama"><i class="fas fa-theater-masks"></i> Drama</div>
+        <div class="category-item" data-category="comedy"><i class="fas fa-laugh"></i> Comedy</div>
+        <div class="category-item" data-category="thriller"><i class="fas fa-microscope"></i> Thriller</div>
+        <div class="category-item" data-category="new"><i class="fas fa-star"></i> New Releases</div>
+        <div class="category-item" data-category="popular"><i class="fas fa-chart-line"></i> Popular</div>
+        <div class="category-item" data-category="top10"><i class="fas fa-trophy"></i> Top 10</div>
+        <div class="category-item" data-category="revenge"><i class="fas fa-skull"></i> Revenge</div>
+        <div class="category-item" data-category="inspirational"><i class="fas fa-heart"></i> Inspirational</div>
+        <div class="category-item" data-category="horror"><i class="fas fa-ghost"></i> Horror</div>
+    </div>
+
+    <!-- Main Sections -->
+    <div class="main-container">
+        <!-- Regular content sections -->
+        <div id="regular-content">
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">New Releases For You</h2>
+                    <div class="view-all" data-section="new-releases">View All <i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="movies-grid" id="new-releases"></div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Popular Movies</h2>
+                    <div class="view-all" data-section="popular-movies">View All <i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="movies-grid" id="popular-movies"></div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Top 10 Movies This Week</h2>
+                    <div class="view-all" data-section="top-movies">View All <i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="movies-grid" id="top-movies"></div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Action Movies</h2>
+                    <div class="view-all" data-section="action-movies">View All <i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="movies-grid" id="action-movies"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detail Modal -->
+    <div class="modal" id="detail-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+            <button class="modal-watch-btn" id="modal-watch-btn"><i class="fas fa-play"></i> Watch Now</button>
+            <div class="modal-header">
+                <img src="" class="modal-backdrop" alt="">
+                <img src="" class="modal-poster" alt="">
+                <div class="modal-header-content">
+                    <h2 class="modal-title"></h2>
+                    <div class="modal-meta">
+                        <span class="modal-year"></span>
+                        <span class="modal-certification"></span>
+                        <span class="modal-duration"></span>
+                        <span class="modal-rating"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description"></p>
+
+                <div class="modal-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Director</div>
+                        <div class="detail-value" id="modal-director"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Cast</div>
+                        <div class="detail-value" id="modal-cast"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Genre</div>
+                        <div class="detail-value" id="modal-genre"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Language</div>
+                        <div class="detail-value" id="modal-language"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Awards</div>
+                        <div class="detail-value" id="modal-awards"></div>
+                    </div>
+                </div>
+
+                <h3 class="modal-section-title">More Like This</h3>
+                <div class="similar-movies" id="similar-movies"></div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- View All Modal -->
+    <div class="view-all-modal" id="view-all-modal">
+        <div class="view-all-content">
+            <div class="view-all-header">
+                <h2 class="view-all-title" id="view-all-title">View All</h2>
+                <button class="view-all-close" id="view-all-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="view-all-body">
+                <div class="view-all-grid" id="view-all-grid">
+                    <!-- Movies will be dynamically populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">yCINEMA</div>
+                <p class="footer-description">The ultimate streaming platform for movie lovers. Discover thousands of
+                    movies and
+                    TV shows, all in one place.</p>
+                <div class="social-icons">
+                    <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                    <div class="social-icon"><i class="fab fa-twitter"></i></div>
+                    <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="social-icon"><i class="fab fa-youtube"></i></div>
+                    <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-heading">Navigation</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Movies</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> TV Shows</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> New Releases</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-heading">Categories</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Action</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Drama</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Comedy</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Thriller</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Horror</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-heading">Support</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Devices</a></li>
+                    <li class="footer-link"><a href="#"><i class="fas fa-chevron-right"></i> Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 yCINEMA. All rights reserved. | Designed with <i class="fas fa-heart"
+                style="color: #e74c3c;"></i> for movie lovers
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    
+</body>
+</html>
