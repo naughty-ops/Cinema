@@ -289,7 +289,7 @@
       "language": "Malayalam",
       "country": "India",
       "releaseDate": "20 February 2025",
-      "featured": true
+      "featured": false
     },
     {
       "id": 20258,
@@ -1108,7 +1108,7 @@
       "language": "Malayalam",
       "country": "India",
       "releaseDate": "10 May 2024",
-      "featured": false
+      "featured": true
     },
     {
       "id": 202529,
