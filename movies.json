@@ -1,7 +1,6 @@
 {
   "movies": [
     {
-<<<<<<< HEAD
       "id": 202401,
       "title": "Aavesham",
       "alsoKnownAs": "Aavesham",
@@ -45,8 +44,6 @@
     },
 
     {
-=======
->>>>>>> 2115e02094a892785e440895dbab65ced3f2940b
       "id": 20251,
       "title": "Identity",
       "year": 2025,
@@ -1514,7 +1511,6 @@
       "country": "India",
       "releaseDate": "19 September 2025",
       "featured": true
-<<<<<<< HEAD
     },
     {
       "id": 202540,
@@ -1553,8 +1549,6 @@
       "country": "India",
       "releaseDate": "22 August 2025",
       "featured": true
-=======
->>>>>>> 2115e02094a892785e440895dbab65ced3f2940b
     }
   ]
 }
