@@ -625,10 +625,10 @@ document.addEventListener('DOMContentLoaded', () => {
       clearInterval(heroCarouselInterval);
     }
 
-    // Set up the carousel to change slides every 3 seconds
+    // Set up the carousel to change slides every 10 seconds
     heroCarouselInterval = setInterval(() => {
       nextSlide();
-    }, 9000);
+    }, 10000);
   }
 
   function nextSlide() {
