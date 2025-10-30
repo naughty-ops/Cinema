@@ -38,11 +38,9 @@
       "releaseDate": "11 April 2024",
       "featured": true
     },
-
     {
       "_comment": "2025"
     },
-
     {
       "id": 20251,
       "title": "Identity",
@@ -920,7 +918,7 @@
       "language": "Malayalam",
       "country": "India",
       "releaseDate": "30 May 2025",
-      "featured": true
+      "featured": false
     },
     {
       "id": 202524,
@@ -1548,6 +1546,44 @@
       "language": "Malayalam",
       "country": "India",
       "releaseDate": "22 August 2025",
+      "featured": true
+    },
+    {
+      "id": 202541,
+      "title": "Idly Kadai",
+      "alsoKnownAs": "Idly Kadai",
+      "year": 2025,
+      "rating": 6.9,
+      "category": "Comedy, Drama, Sport",
+      "description": "A humble villager travels to Dubai chasing dreams and livelihood, but after facing hardship, he returns home to rediscover his roots. In his journey, he learns the true meaning of success, family, and fulfilling his late father's wishes amidst the odds.",
+      "frontImage": "https://m.media-amazon.com/images/M/MV5BOWM5N2ZmZGEtZTljZi00ZDNhLWJhZTgtZjliODUxNmE2ODcxXkEyXkFqcGc@._V1_.jpg",
+      "backImage": "https://img.youtube.com/vi/zdu0YzzJ10o/maxresdefault.jpg",
+      "certification": "U/A",
+      "duration": "2h 28m",
+      "watchLink": "https://stream.anshbotzone.com/tg/play?url=Qj8cE7jfgLeGwNdp3lqijG%2Bk2jqJ%2BE3lj0TP6h8Kcya%2BZNejZmi4K6Ao8CHdsp4EKwgrZi1fb8L4zysCwOgAtjJgY7g986ltKvgrWq%2BdSnoo4V%2B34r5yrqc8mEUZj1hw&meta=ibcByRghQVw8ROnSTVFWiFO2XVjvBSO9pgx%2B6eIvAei6MFpQ9ZRJbncYvrXeP3UJUg8euVwPZ%2BMbbkjwX2KiaIYRXVwfCOi2s%2BVXAzXA0N0FWF65OPm%2BQpcntoZwK9DvZOWxw5H9upzSBDDNZvwoRqAle6vwms2vzzzlCHEZ2EFQMzQVK5Xgu3PbmtabWJOqLqFghIX1DeF6jg1EmwZFiInZvlLw4B03XwGasa8rGZM%3D",
+      "top10": true,
+      "isNewRelease": true,
+      "isPopular": true,
+      "director": "Dhanush",
+      "writers": [
+        "Dhanush"
+      ],
+      "cast": [
+        "Dhanush",
+        "Arun Vijay",
+        "Sathyaraj",
+        "Raj Kiran",
+        "Nithya Menen",
+        "Shalini Pandey",
+        "Ilavarasu"
+      ],
+      "awards": [
+        "Nominee – Best Family Entertainer (SIIMA 2025)",
+        "Winner – Best Actor (Dhanush, Tamil Nadu State Film Awards 2025)"
+      ],
+      "language": "Tamil, Telugu, Hindi, Kannada, Malayalam",
+      "country": "India",
+      "releaseDate": "1 October 2025",
       "featured": true
     }
   ]
