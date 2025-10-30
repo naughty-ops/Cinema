@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch('movies.json')
     .then(response => response.json())
     .then(movies => {
-      // Reverse the order so last movie in JSON appears first
-      movies = movies.reverse();
+      // Sort movies by releaseDate (newest first)
+      movies.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
 
       const moviesGrid = document.getElementById('movies-grid');
       renderMovies(moviesGrid, movies);
@@ -12,12 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(error => console.error('Error loading movies:', error));
 });
 
-// Function to render all movies into the grid
+// Function to render all movie cards
 function renderMovies(container, movies) {
-  // Clear existing cards
-  container.innerHTML = '';
+  container.innerHTML = ''; // clear existing content
 
-  // Loop through each movie and create card
   movies.forEach(movie => {
     const cardHTML = `
       <div class="card-container">
@@ -27,7 +25,10 @@ function renderMovies(container, movies) {
           </div>
           <div class="back">
             <img src="${movie.backImage}" alt="${movie.title} background" class="back-image">
-            <div class="back-content">${movie.description}</div>
+            <div class="back-content">
+              <p><strong>Release Date:</strong> ${movie.releaseDate}</p>
+              <p>${movie.description}</p>
+            </div>
             <a href="${movie.watchLink}" target="_blank" class="watch-btn">▶ Watch Now</a>
           </div>
         </div>
@@ -36,7 +37,7 @@ function renderMovies(container, movies) {
     container.insertAdjacentHTML('beforeend', cardHTML);
   });
 
-  // Add flip functionality (click + touch)
+  // Flip functionality (click & touch)
   document.querySelectorAll('.card').forEach(card => {
     let touched = false;
 
